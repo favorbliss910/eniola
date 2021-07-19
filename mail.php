@@ -3,11 +3,11 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$to = "eniolajohnson910@gmail.com";
+$to = "favorbliss910@yahoo.com";
 $subject = "Mail From Website";
 
 $headers "From: ".$name. "\r\n" .
-"CC: favorbliss910@yahoo.com";
+"CC: ";
 
 $txt = "You have received an e-mail from ".$name ."\r\nEmail: " .$email ."\r\n
  Message: ".message;
@@ -17,18 +17,3 @@ $txt = "You have received an e-mail from ".$name ."\r\nEmail: " .$email ."\r\n
  }
 
 header('Location:pop.html');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>
